@@ -94,8 +94,7 @@ Tags: Single Column, Responsive, Clean, Modern, Flexiable, bootstrap
 body {
 	color: #8c8c8c;
 	background: #f0edf2;
-	/* font-family: 'Open Sans', sans-serif; */
-	font-family: "Blizzard", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	overflow-x: hidden;
 }
@@ -232,7 +231,7 @@ a:focus, a:active:focus, a.active:focus, button:focus, button:active:focus, butt
 	color: #a8aab3;
 	font-size: 33px;
 	font-weight: 300;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	letter-spacing: 3px;
 }
 
@@ -389,7 +388,7 @@ a:focus, a:active:focus, a.active:focus, button:focus, button:active:focus, butt
 
 .post-list .post-item .title {
 	font-size: 14px;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	line-height: 20px;
 	color: #8c8c8c;
 	margin-bottom: 10px;
@@ -578,7 +577,7 @@ a:focus, a:active:focus, a.active:focus, button:focus, button:active:focus, butt
 
 .top-fixed .nav {
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	font-size: 16px;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -623,7 +622,7 @@ a:focus, a:active:focus, a.active:focus, button:focus, button:active:focus, butt
 .site-title .site-name, .site-title .site-designation, .site-slogan {
 	color: #FFF;
 	font-size: 50px;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
@@ -1499,7 +1498,7 @@ a {}
 	font-size: 24px;
 	font-style: normal;
 	line-height: 33px;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	font-weight: 600;
 	color: #FFF;
 	position: relative;
