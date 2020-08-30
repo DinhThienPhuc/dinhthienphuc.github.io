@@ -1,21 +1,28 @@
 const experiences = [
   {
     company: "VCCloud - VCCorp",
-    title: "Full Stack Developer",
+    title: "Web Developer",
     type: "Full Time",
     start: "2/2020",
-    end: "",
-    location: "Hà Nội, Việt Nam",
-    bgColor: "light-yellow",
+    end: "Present",
+    iconPath: "./images/exp-icons/vccloud.png",
+    description: [
+      "Add and update internal dashboard features, using Vue.js.",
+      "Apply new structures for web servers, using NGINX, Redis, Python, Lua.",
+      "Deploy NGINX web server to physical server with Docker, Ansible",
+    ],
   },
   {
-    company: "iHR Solution",
+    company: "iHR Solution - EWAY",
     title: "Frontend Web Developer",
     type: "Full Time",
     start: "10/2019",
     end: "12/2019",
-    location: "Hà Nội, Việt Nam",
-    bgColor: "light-green",
+    iconPath: "./images/exp-icons/ihr-solution.jpg",
+    description: [
+      "Research requirements, designs user interface, build website with React, Redux.",
+      "Work and support other developers.",
+    ],
   },
   {
     company: "Quant Edge",
@@ -23,8 +30,12 @@ const experiences = [
     type: "Full Time",
     start: "9/2018",
     end: "10/2019",
-    location: "Hà Nội, Việt Nam",
-    bgColor: "light-violet",
+    iconPath: "./images/exp-icons/quant-edge.png",
+    description: [
+      "Research requirements, designs and documents, develop feature with React.",
+      "Optimize code for cross-browser.",
+      "Work and support other members.",
+    ],
   },
   {
     company: "Techmaster Vietnam",
@@ -32,16 +43,10 @@ const experiences = [
     type: "Part Time",
     start: "3/2018",
     end: "5/2018",
-    location: "Hà Nội, Việt Nam",
-    bgColor: "light-blue",
-  },
-  {
-    company: "Techmaster Vietnam",
-    title: "Trainee Developer",
-    type: "Part Time",
-    start: "7/2016",
-    end: "12/2016",
-    location: "Hà Nội, Việt Nam",
-    bgColor: "light-yellow",
+    description: [
+      "Built web prototype with Balsamiq.",
+      "Develop user interface with Vue/Nuxt.",
+      "Working with backend developers to create suitable APIs.",
+    ],
   },
 ];

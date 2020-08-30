@@ -1,5 +1,5 @@
-const blogs = [
-  {
+const blogs = {
+  "3-van-de-ve-hieu-nang-trong-javascript-ma-ban-nen-can-nhac": {
     name: "3 vấn đề về hiệu năng trong JavaScript mà bạn nên cân nhắc",
     thumbnail: "https://cdn-images-1.medium.com/max/1600/0*9ZI7OIRHE7ARhiuK",
     time: "24/12/2018",
@@ -31,4 +31,4 @@ const blogs = [
       <p>Nếu ứng dụng của bạn cần tốc độ cực nhanh thì sử dụng những tính năng \"mới nhất\" có thể sẽ làm giảm đi đáng kể tốc độ ứng dụng của bạn. Lúc này hãy linh hoạt với những phương án \"cũ\" hơn.</p>\
       <p>Nguồn: <a href='https://hackernoon.com/3-javascript-performance-mistakes-you-should-stop-doing-ebf84b9de951' target='_blank'>https://hackernoon.com/3-javascript-performance-mistakes-you-should-stop-doing-ebf84b9de951</a></p>",
   },
-];
+};
