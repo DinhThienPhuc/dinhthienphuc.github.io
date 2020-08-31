@@ -81,7 +81,6 @@ const createEduTemplate = ({
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-  // Add Skill
   const skillsItemsDOM = document.querySelector("#skills-dom");
   let skillsItemsHTMLString = '<div class="col-six tab-full">';
   skills[0].map((skill) => {
@@ -94,7 +93,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   skillsItemsHTMLString += "</div>";
   skillsItemsDOM.innerHTML = skillsItemsHTMLString;
 
-  // Add Work Experience
   const experienceItemsDOM = document.querySelector("#work-experience-dom");
   let experienceItemsHTMLString = "";
   experiences.map((exp) => {
@@ -102,7 +100,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   experienceItemsDOM.innerHTML = experienceItemsHTMLString;
 
-  // Add Educations
   const eduItemsDOM = document.querySelector("#education-dom");
   let eduItemsHTMLString = "";
   educations.map((edu) => {
