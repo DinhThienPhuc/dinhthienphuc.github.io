@@ -1,6 +1,6 @@
-const createSkillTemplate = (skillData) => {
+const createSkillTemplate = ({ skills, group }) => {
   let skillList = "";
-  (skillData.skills || []).forEach((skill) => {
+  (skills || []).forEach((skill) => {
     skillList +=
       "<li>" +
       `<i class="${skill.iconClass}"></i><h4>${skill.label}</h4>` +
@@ -8,7 +8,7 @@ const createSkillTemplate = (skillData) => {
   });
   return (
     '<div class="skill-part">' +
-    `<h3>${skillData.group}</h3>` +
+    `<h3>${group}</h3>` +
     '<ul class="skill-bars">' +
     skillList +
     "</ul>" +
@@ -16,25 +16,64 @@ const createSkillTemplate = (skillData) => {
   );
 };
 
-const createWorkExperienceTemplate = (workExp) => {
-  let description = "";
-  workExp.description.map((des) => {
-    description += `<li>${des}</li>`;
+const createWorkExperienceTemplate = ({
+  description,
+  iconPath,
+  company,
+  type,
+  start,
+  end,
+  title,
+}) => {
+  let des = "";
+  description.map((chunk) => {
+    des += `<li>${chunk}</li>`;
   });
   return (
     '<div class="timeline-block">' +
     '<div class="timeline-ico">' +
-    `<img src="${workExp.iconPath}"/>` +
+    `<img src="${iconPath}"/>` +
     "</div>" +
     '<div class="timeline-header">' +
-    `<h3>${workExp.company}</h3>` +
-    `<p>${workExp.type}</p>` +
-    `<p>${workExp.start} - ${workExp.end}</p>` +
+    `<h3>${company}</h3>` +
+    `<p>${type}</p>` +
+    `<p>${start} - ${end}</p>` +
     "</div>" +
     '<div class="timeline-content">' +
-    `<h4>${workExp.title}</h4>` +
+    `<h4>${title}</h4>` +
     '<ul class="des">' +
-    description +
+    des +
+    "</ul>" +
+    "</div>" +
+    "</div>"
+  );
+};
+
+const createEduTemplate = ({
+  school,
+  start,
+  end,
+  studyField,
+  extraInfo,
+  iconPath,
+}) => {
+  let des = "";
+  extraInfo.map((info) => {
+    des += `<li>${info}</li>`;
+  });
+  return (
+    '<div class="timeline-block">' +
+    '<div class="timeline-ico">' +
+    `<img src="${iconPath}"/>` +
+    "</div>" +
+    '<div class="timeline-header">' +
+    `<h3>${school}</h3>` +
+    `<p>${start} - ${end}</p>` +
+    "</div>" +
+    '<div class="timeline-content">' +
+    `<h4>${studyField}</h4>` +
+    '<ul class="des">' +
+    des +
     "</ul>" +
     "</div>" +
     "</div>"
@@ -63,6 +102,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   experienceItemsDOM.innerHTML = experienceItemsHTMLString;
 
-  // const tempBlogDOM = document.querySelector(".temp-blogs");
-  // tempBlogDOM.innerHTML = blogs[0].content;
+  // Add Educations
+  const eduItemsDOM = document.querySelector("#education-dom");
+  let eduItemsHTMLString = "";
+  educations.map((edu) => {
+    eduItemsHTMLString += createEduTemplate(edu);
+  });
+  eduItemsDOM.innerHTML = eduItemsHTMLString;
 });
