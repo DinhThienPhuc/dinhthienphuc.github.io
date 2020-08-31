@@ -2334,7 +2334,17 @@ header .top-bar {
 }
 
 footer {
-  padding-bottom: 6rem;
+  height: 6rem;
+}
+
+footer > .row {
+  height: 100%;
+}
+footer > .row > p {
+  margin-bottom: 0;
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
