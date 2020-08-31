@@ -1620,6 +1620,10 @@ header .top-bar {
   bottom: 0;
 }
 
+#education .timeline-content p {
+  height: 60px;
+}
+
 @media only screen and (max-width: 1024px) {
   #work-exp .timeline-header,
   #education .timeline-header {
