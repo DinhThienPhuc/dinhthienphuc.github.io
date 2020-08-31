@@ -6,6 +6,15 @@ const skills = [
         { label: "JavaScript", iconClass: "fab fa-js-square" },
         { label: "HTML, CSS", iconClass: "fas fa-file-code" },
         { label: "Python", iconClass: "fab fa-python" },
+        { label: "C", iconClass: "fab fa-cuttlefish" },
+        { label: "Java", iconClass: "fab fa-java" },
+      ],
+    },
+    {
+      group: "Database",
+      skills: [
+        { label: "MongoDB", iconClass: "fas fa-database" },
+        { label: "Redis", iconClass: "fas fa-database" },
       ],
     },
     {
@@ -18,25 +27,6 @@ const skills = [
     {
       group: "Foreign Languages",
       skills: [{ label: "Intermediate English", iconClass: "fas fa-language" }],
-    },
-    {
-      group: "Knowledge",
-      skills: [
-        { label: "Research", iconClass: "fas fa-search" },
-        { label: "Teamwork", iconClass: "fas fa-user-friends" },
-        {
-          label: "OOP, SOLID, DRY, KISS, MVC",
-          iconClass: "fas fa-bug",
-        },
-        {
-          label: "AJAX, RestfulAPI Design",
-          iconClass: "fas fa-splotch",
-        },
-        {
-          label: "Sketch, Photoshop, Balsamiq",
-          iconClass: "fas fa-palette",
-        },
-      ],
     },
   ],
   [
@@ -57,10 +47,22 @@ const skills = [
       ],
     },
     {
-      group: "Database",
+      group: "Knowledge",
       skills: [
-        { label: "MongoDB", iconClass: "fas fa-database" },
-        { label: "Redis", iconClass: "fas fa-database" },
+        { label: "Research", iconClass: "fas fa-search" },
+        { label: "Teamwork", iconClass: "fas fa-user-friends" },
+        {
+          label: "OOP, SOLID, DRY, KISS, MVC",
+          iconClass: "fas fa-bug",
+        },
+        {
+          label: "AJAX, RestfulAPI Design",
+          iconClass: "fas fa-splotch",
+        },
+        {
+          label: "Sketch, Photoshop, Balsamiq",
+          iconClass: "fas fa-palette",
+        },
       ],
     },
   ],

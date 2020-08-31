@@ -1388,6 +1388,29 @@ header .top-bar {
   padding-left: 13rem;
 }
 
+.intro-info .contact {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #888888;
+}
+
+.intro-info .contact:first-of-type {
+  margin-top: 3rem;
+}
+
+.intro-info .contact:hover {
+  color: rgb(200, 170, 110);
+}
+
+.intro-info .contact i {
+  width: 16px;
+}
+
+.intro-info .contact span {
+  margin-left: 10px;
+}
+
 .about-content {
   position: relative;
   text-align: left;
@@ -2249,25 +2272,6 @@ header .top-bar {
 }
 .oldie #submit-loader .text-loader {
   display: block;
-}
-.contact-info {
-  margin: 4.8rem auto 0;
-  font-family: "poppins-regular", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-.contact-info .collapse {
-  padding: 0;
-}
-.contact-info .icon {
-  margin-bottom: 2.1rem;
-}
-.contact-info .icon i {
-  font-size: 4.2rem;
-  color: #ffffff;
-}
-.contact-info h5 {
-  color: rgb(200, 170, 110);
 }
 
 .s-loader {
