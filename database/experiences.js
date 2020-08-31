@@ -43,6 +43,7 @@ const experiences = [
     type: "Part Time",
     start: "3/2018",
     end: "5/2018",
+    iconPath: "./images/exp-icons/techmaster.jpg",
     description: [
       "Built web prototype with Balsamiq.",
       "Develop user interface with Vue/Nuxt.",
