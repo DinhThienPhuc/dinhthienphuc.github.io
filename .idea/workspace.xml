@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56eeb578-6b36-4834-862e-5865dfc5aaef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/assets/js/myScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/myScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598844620625</updated>
-      <workItem from="1598844622465" duration="121000" />
+      <workItem from="1598844622465" duration="216000" />
     </task>
     <servers />
   </component>
@@ -74,6 +75,7 @@
                       <list>
                         <option value="blog" />
                         <option value="dev" />
+                        <option value="update-education" />
                       </list>
                     </value>
                   </entry>
@@ -91,8 +93,15 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="dev" />
                   <option value="blog" />
+                  <option value="dev" />
+                  <option value="update-education" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="blog" />
+                  <option value="dev" />
                 </option>
               </RecentGroup>
             </list>
