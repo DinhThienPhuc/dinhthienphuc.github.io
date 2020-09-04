@@ -2,17 +2,13 @@
   "use strict";
 
   $(window).load(function () {
-    $("#loader").fadeOut("slow", function () {
-      $("#preloader").delay(300).fadeOut("slow");
+    $(".dom-loader").fadeOut("slow", function () {
+      $(".dom-preloader").delay(300).fadeOut("slow");
     });
   });
 
-  setTimeout(function () {
-    $("#intro h1").fitText(1, { minFontSize: "42px", maxFontSize: "84px" });
-  }, 100);
-
-  var toggleButton = $(".menu-toggle"),
-    nav = $(".main-navigation");
+  var toggleButton = $(".dom-menu-toggle"),
+    nav = $(".dom-main-navigation");
 
   toggleButton.on("click", function (e) {
     e.preventDefault();
@@ -26,7 +22,7 @@
   });
 
   var sections = $("section"),
-    navigation_links = $("#main-nav-wrap li a");
+    navigation_links = $(".dom-route");
 
   sections.waypoint({
     handler: function (direction) {
@@ -37,7 +33,7 @@
       if (direction === "up") active_section = active_section.prev();
 
       var active_link = $(
-        '#main-nav-wrap a[href="#' + active_section.attr("id") + '"]'
+        '.dom-route[href="#' + active_section.attr("id") + '"]'
       );
 
       navigation_links.parent().removeClass("current");
@@ -47,7 +43,7 @@
     offset: "25%",
   });
 
-  $(".smoothscroll").on("click", function (e) {
+  $(".dom-route").on("click", function (e) {
     e.preventDefault();
 
     var target = this.hash,
@@ -72,12 +68,10 @@
   var fadeOutTime = 400;
 
   jQuery(window).scroll(function () {
-    if (!$("#header-search").hasClass("is-visible")) {
-      if (jQuery(window).scrollTop() >= pxShow) {
-        jQuery("#go-top").fadeIn(fadeInTime);
-      } else {
-        jQuery("#go-top").fadeOut(fadeOutTime);
-      }
+    if (jQuery(window).scrollTop() >= pxShow) {
+      jQuery(".dom-go-top").fadeIn(fadeInTime);
+    } else {
+      jQuery(".dom-go-top").fadeOut(fadeOutTime);
     }
   });
 })(jQuery);

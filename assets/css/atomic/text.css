@@ -1,0 +1,89 @@
+/*
+  RULES:
+    tc = text-color
+    td = text-decoration
+    tlh = line-height (px)
+    ta = text-align
+    tt = text-tranform
+    tls = letter-spacing
+*/
+
+/* TEXT COLOR ------------------------------------------------------ */
+.tc-g {
+  color: var(--gold);
+}
+.tc-w {
+  color: var(--white);
+}
+.tc-b {
+  color: var(--black);
+}
+.tc-lb {
+  color: var(--light-black);
+}
+.tc-gr {
+  color: var(--grey);
+}
+.tc-g\:h:hover {
+  transition: all linear 300ms;
+  color: var(--gold);
+}
+/* END TEXT COLOR -------------------------------------------------- */
+
+/* TEXT DECORATION ------------------------------------------------- */
+.td-n {
+  text-decoration: none;
+}
+/* END TEXT DECORATION --------------------------------------------- */
+
+/* LINE HEIGHT ----------------------------------------------------- */
+.tlh-6 {
+  line-height: var(--r6);
+}
+
+.tlh-1\.5 {
+  line-height: 1.5;
+}
+.tlh-1\.765 {
+  line-height: 1.765;
+}
+.tlh-1\.8 {
+  line-height: 1.8;
+}
+/* END LINE HEIGHT ------------------------------------------------- */
+
+/* TEXT ALIGN ------------------------------------------------------ */
+.ta-c {
+  text-align: center;
+}
+.ta-j {
+  text-align: justify;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-r {
+  text-align: right;
+}
+/* END TEXT ALIGN -------------------------------------------------- */
+
+/* TEXT TRANSFORM -------------------------------------------------- */
+.tt-u {
+  text-transform: uppercase;
+}
+/* END TEXT TRANSFORM ---------------------------------------------- */
+
+/* LETTER SPACING -------------------------------------------------- */
+.tls-0\.05 {
+  letter-spacing: var(--r0\.05);
+}
+.tls-0\.1 {
+  letter-spacing: var(--r0\.1);
+}
+.tls-0\.2 {
+  letter-spacing: var(--r0\.2);
+}
+.tls-0\.3 {
+  letter-spacing: var(--r0\.3);
+}
+/* END LETTER SPACING ---------------------------------------------- */

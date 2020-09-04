@@ -1,0 +1,160 @@
+/*
+  RULES:
+    padding = pa
+    padding vertical = py
+    padding horizon = px
+    padding top = pt
+    padding right= pr
+    padding bottom = pb
+    padding left = pl
+
+    margin = ma
+    margin vertical = my
+    margin horizon = mx
+    margin top = mt
+    margin right= mr
+    margin bottom = mb
+    margin left = ml
+*/
+
+/* PADDING --------------------------------------------------------- */
+.pa-3 {
+  padding: var(--r3);
+}
+
+.py-1\.5 {
+  padding: var(--r1\.5) 0;
+}
+.py-2 {
+  padding: var(--r2) 0;
+}
+.py-3 {
+  padding: var(--r3) 0;
+}
+
+.px-1 {
+  padding: 0 var(--r1);
+}
+.px-2 {
+  padding: 0 var(--r2);
+}
+.px-3 {
+  padding: 0 var(--r3);
+}
+.px-5 {
+  padding: 0 var(--r5);
+}
+.px-10 {
+  padding: 0 var(--r10);
+}
+.px-15 {
+  padding: 0 var(--r15);
+}
+
+.pt-1 {
+  padding-top: var(--r1);
+}
+.pt-1\.5 {
+  padding-top: var(--r1\.5);
+}
+.pt-5 {
+  padding-top: var(--r5);
+}
+.pr-3 {
+  padding-right: var(--r3);
+}
+.pr-2 {
+  padding-right: var(--r2);
+}
+.pl-3 {
+  padding-left: var(--r3);
+}
+.pl-2 {
+  padding-left: var(--r2);
+}
+.pb-1\.5 {
+  padding-bottom: var(--r1\.5);
+}
+.pb-1 {
+  padding-bottom: var(--r1);
+}
+.pb-5 {
+  padding-bottom: var(--r5);
+}
+.pb-10 {
+  padding-bottom: var(--r10);
+}
+/* END PADDING ----------------------------------------------------- */
+
+/* MARGIN ---------------------------------------------------------- */
+.mx-1 {
+  margin: 0 var(--r1);
+}
+.mx-1\.5 {
+  margin: 0 var(--r1\.5);
+}
+.mx-2 {
+  margin: 0 var(--r2);
+}
+
+.mt-n5 {
+  margin-top: var(--rn5);
+}
+.mt-n4 {
+  margin-top: var(--rn4);
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-3 {
+  margin-top: var(--r3);
+}
+.mt-4 {
+  margin-top: var(--r4);
+}
+.mt-8 {
+  margin-top: var(--r8);
+}
+.mt-15 {
+  margin-top: var(--r15);
+}
+.mt-20 {
+  margin-top: var(--r20);
+}
+.mt-25 {
+  margin-top: var(--r25);
+}
+.mt-22 {
+  margin-top: var(--r22);
+}
+.mt-23 {
+  margin-top: var(--r23);
+}
+.ml-0\.5 {
+  margin-left: var(--r0\.5);
+}
+.ml-2 {
+  margin-left: var(--r2);
+}
+.ml-3 {
+  margin-left: var(--r3);
+}
+.mr-0\.5 {
+  margin-right: var(--r0\.5);
+}
+.mr-1 {
+  margin-right: var(--r1);
+}
+.mr-2 {
+  margin-right: var(--r2);
+}
+.mb-1 {
+  margin-bottom: var(--r1);
+}
+.mb-2 {
+  margin-bottom: var(--r2);
+}
+.mb-3 {
+  margin-bottom: var(--r3);
+}
+/* END MARGIN ------------------------------------------------------ */

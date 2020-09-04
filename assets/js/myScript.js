@@ -2,14 +2,14 @@ const createSkillTemplate = ({ skills, group }) => {
   let skillList = "";
   (skills || []).forEach((skill) => {
     skillList +=
-      "<li>" +
-      `<i class="${skill.iconClass}"></i><h4>${skill.label}</h4>` +
+      '<li class="ff-ppin-sb fs-1.5 d-ib bgc-w mr-2 mb-1 pt-1 pr-2 pb-1 pl-2 br-1.5 tc-gr">' +
+      `<i class="${skill.iconClass}"></i><h4 class="d-i ml-0.5 tls-0.1">${skill.label}</h4>` +
       "</li>";
   });
   return (
-    '<div class="skill-part">' +
-    `<h3>${group}</h3>` +
-    '<ul class="skill-bars">' +
+    '<div class="mb-3">' +
+    `<h3 class="ff-ppin-b tt-u tls-0.2">${group}</h3>` +
+    '<ul class="d-f dfw-w lst-n">' +
     skillList +
     "</ul>" +
     "</div>"
@@ -30,18 +30,18 @@ const createWorkExperienceTemplate = ({
     des += `<li>${chunk}</li>`;
   });
   return (
-    '<div class="timeline-block">' +
-    '<div class="timeline-ico">' +
+    "<div>" +
+    "<div>" +
     `<img src="${iconPath}"/>` +
     "</div>" +
-    '<div class="timeline-header">' +
+    "<div>" +
     `<h3>${company}</h3>` +
     `<p>${type}</p>` +
     `<p>${start} - ${end}</p>` +
     "</div>" +
-    '<div class="timeline-content">' +
+    "<div>" +
     `<h4>${title}</h4>` +
-    '<ul class="des">' +
+    "<ul>" +
     des +
     "</ul>" +
     "</div>" +
@@ -62,17 +62,17 @@ const createEduTemplate = ({
     des += `<li>${info}</li>`;
   });
   return (
-    '<div class="timeline-block">' +
-    '<div class="timeline-ico">' +
+    "<div>" +
+    "<div>" +
     `<img src="${iconPath}"/>` +
     "</div>" +
-    '<div class="timeline-header">' +
+    "<div>" +
     `<h3>${school}</h3>` +
     `<p>${start} - ${end}</p>` +
     "</div>" +
-    '<div class="timeline-content">' +
+    "<div>" +
     `<h4>${studyField}</h4>` +
-    '<ul class="des">' +
+    "<ul>" +
     des +
     "</ul>" +
     "</div>" +
@@ -81,26 +81,22 @@ const createEduTemplate = ({
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const skillsItemsDOM = document.querySelector("#skills-dom");
-  let skillsItemsHTMLString = '<div class="col-six tab-full">';
-  skills[0].map((skill) => {
-    skillsItemsHTMLString += createSkillTemplate(skill);
-  });
-  skillsItemsHTMLString += '</div><div class="col-six tab-full">';
-  skills[1].map((skill) => {
+  const skillsItemsDOM = document.querySelector(".dom-skills");
+  let skillsItemsHTMLString = "<div>";
+  skills.map((skill) => {
     skillsItemsHTMLString += createSkillTemplate(skill);
   });
   skillsItemsHTMLString += "</div>";
   skillsItemsDOM.innerHTML = skillsItemsHTMLString;
 
-  const experienceItemsDOM = document.querySelector("#work-experience-dom");
+  const experienceItemsDOM = document.querySelector(".dom-work-experience");
   let experienceItemsHTMLString = "";
   experiences.map((exp) => {
     experienceItemsHTMLString += createWorkExperienceTemplate(exp);
   });
   experienceItemsDOM.innerHTML = experienceItemsHTMLString;
 
-  const eduItemsDOM = document.querySelector("#education-dom");
+  const eduItemsDOM = document.querySelector(".dom-education");
   let eduItemsHTMLString = "";
   educations.map((edu) => {
     eduItemsHTMLString += createEduTemplate(edu);

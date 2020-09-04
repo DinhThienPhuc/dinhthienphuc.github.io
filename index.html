@@ -13,11 +13,23 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <link rel="stylesheet" href="assets/css/base.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/vendor.css" />
     <script src="assets/js/modernizr.js"></script>
     <script src="assets/js/pace.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/atomic/_base.css" />
+    <link rel="stylesheet" href="assets/css/atomic/background.css" />
+    <link rel="stylesheet" href="assets/css/atomic/border.css" />
+    <link rel="stylesheet" href="assets/css/atomic/display.css" />
+    <link rel="stylesheet" href="assets/css/atomic/divider.css" />
+    <link rel="stylesheet" href="assets/css/atomic/font.css" />
+    <link rel="stylesheet" href="assets/css/atomic/list.css" />
+    <link rel="stylesheet" href="assets/css/atomic/opacity.css" />
+    <link rel="stylesheet" href="assets/css/atomic/overflow.css" />
+    <link rel="stylesheet" href="assets/css/atomic/position.css" />
+    <link rel="stylesheet" href="assets/css/atomic/queries.css" />
+    <link rel="stylesheet" href="assets/css/atomic/size.css" />
+    <link rel="stylesheet" href="assets/css/atomic/spacing.css" />
+    <link rel="stylesheet" href="assets/css/atomic/text.css" />
     <script
       src="https://kit.fontawesome.com/a49b6b6849.js"
       crossorigin="anonymous"
@@ -25,162 +37,225 @@
     <link rel="icon" type="image/png" href="favicon.ico" />
   </head>
 
-  <body id="top">
-    <header>
-      <div class="row">
-        <div class="top-bar">
-          <a class="menu-toggle" href="#"><span>Menu</span></a>
-          <nav id="main-nav-wrap">
-            <ul class="main-navigation">
-              <li class="current">
-                <a class="smoothscroll" href="#intro" title="">Home</a>
+  <body id="top" class="fs-1.7">
+    <header class="ps-f ps-t0 ps-z100">
+      <div>
+        <div class="d-b bgc-b w-15 h-6 ps-a">
+          <a class="dom-menu-toggle tc-g tlh-6 ml-3" href="#">
+            <i class="fas fa-bars"></i>
+          </a>
+          <nav>
+            <ul class="dom-main-navigation fs d-n bgc-b px-3 pb-1.5">
+              <li class="d-b">
+                <a
+                  class="dom-route d-b tc-g py-1.5 td-n"
+                  href="#intro"
+                  title=""
+                >
+                  Home
+                </a>
               </li>
-              <li>
-                <a class="smoothscroll" href="#summary" title="">Summary</a>
+              <li class="d-b">
+                <a
+                  class="dom-route d-b tc-g py-1.5 td-n"
+                  href="#summary"
+                  title=""
+                >
+                  Summary
+                </a>
               </li>
-              <li>
-                <a class="smoothscroll" href="#skills" title="">Skills</a>
+              <li class="d-b">
+                <a
+                  class="dom-route d-b tc-g py-1.5 td-n"
+                  href="#skills"
+                  title=""
+                >
+                  Skills
+                </a>
               </li>
-              <li>
-                <a class="smoothscroll" href="#work-exp" title="">Work Exp</a>
+              <li class="d-b">
+                <a
+                  class="dom-route d-b tc-g py-1.5 td-n"
+                  href="#work-exp"
+                  title=""
+                >
+                  Work Exp
+                </a>
               </li>
-              <li>
-                <a class="smoothscroll" href="#education" title="">Education</a>
+              <li class="d-b">
+                <a
+                  class="dom-route d-b tc-g py-1.5 td-n"
+                  href="#education"
+                  title=""
+                >
+                  Education
+                </a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <section id="intro">
-      <div class="overlay"></div>
-      <div class="intro-content">
-        <div class="row">
-          <div class="col-twelve">
-            <h5>Hi World.</h5>
-            <h1>I'm Dinh Thien Phuc.</h1>
-            <p class="intro-position">
-              <span>Web Developer</span>
+    <section id="intro" class="bgi-city bgs-c bga-f h-100vh w-100p ps-r ps-t0">
+      <div class="ps-a o-0.6 w-100p h-100p bgc-lb"></div>
+      <div class="ps-a w-100p h-100p ta-c">
+        <div>
+          <div>
+            <h5 class="ff-ppin-b tc-g tt-u fs-2.3 tlh-1.5 tls-0.3 mt-22">
+              Hi World
+            </h5>
+            <h1 class="dom-jumbotron ff-ppin-m fs-8 tc-w mt-n4 px-1">
+              I'm Dinh Thien Phuc
+            </h1>
+            <p class="mt-n4">
+              <span class="tc-w fs-1.7 tls-0.2 tt-u">Web Developer</span>
             </p>
-            <a class="button stroke smoothscroll" href="#about" title="">
-              More About Me
+            <a
+              class="dom-route d-ib ff-ppin-b tc-w td-n tt-u tls-0.3 pt-1.5 pr-3 pb-1.5 pl-3 bw-0.3 bc-dgr bt-s fs-1.3 fw-br mt-3 bc-g:h tc-g:h"
+              href="#summary"
+              title=""
+            >
+              <span>More About Me</span>
+              <i class="fas fa-angle-down"></i>
+            </a>
+          </div>
+        </div>
+        <ul class="fs-3.5 mt-15">
+          <li class="d-ib mx-1.5">
+            <a
+              class="tc-w trp-a trd-300 trtf-l tc-g:h"
+              href="https://github.com/DinhThienPhuc"
+              target="_blank"
+            >
+              <i class="fa fa-github"> </i
+            ></a>
+          </li>
+          <li class="d-ib mx-1.5">
+            <a
+              class="tc-w trp-a trd-300 trtf-l tc-g:h"
+              href="https://www.linkedin.com/in/đinh-thiên-phúc-1173821a5/"
+              target="_blank"
+            >
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="d-ib mx-1.5">
+            <a
+              class="tc-w trp-a trd-300 trtf-l tc-g:h"
+              href="https://www.freecodecamp.org/dinhthienphuc"
+              target="_blank"
+            >
+              <i class="fa fa-free-code-camp"></i>
+            </a>
+          </li>
+          <li class="d-ib mx-1.5">
+            <a
+              class="tc-w trp-a trd-300 trtf-l tc-g:h"
+              href="mailto:thienphuc.bka1412@gmail.com"
+              target="_blank"
+            >
+              <i class="fa fa-google"></i>
+            </a>
+          </li>
+          <li class="d-ib mx-1.5">
+            <a
+              class="tc-w trp-a trd-300 trtf-l tc-g:h"
+              href="https://twitter.com/thienphuc1412"
+              target="_blank"
+            >
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="d-ib mx-1.5">
+            <a
+              class="tc-w trp-a trd-300 trtf-l tc-g:h"
+              href="https://www.facebook.com/profile.php?id=100008135957449"
+              target="_blank"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section
+      id="summary"
+      class="mh-100vh pb-10 bgc-w pt-5 spx-m spx-t spx-d ta-c"
+    >
+      <div>
+        <div>
+          <h2 class="ff-ppin-sb tc-g fs-3 tls-0.05">Summary</h2>
+          <div class="">
+            <img
+              src="images/profile-pic.jpg"
+              alt="Profile Picture"
+              class="w-20 h-20 br-c"
+            />
+            <p class="tc-gr fs-2 tlh-1.8 ta-j tls-0.05">
+              I'm Dinh Thien Phuc, a web developer with 2 years of experience in
+              Web development, skilled in Frontend technologies like React.js,
+              Vue.js, JavaScript and good at Backend field. Learning new
+              languages and technologies is what I am passionate about. I am
+              considered a team-player because I like helping other and tend to
+              work well within groups. I can also do some mentoring tasks and do
+              code reviewing for other team members. My favorite books are:
+              Clean Code, Code Complete, Eloquent JavaScript.
+            </p>
+            <a
+              href="./assets/cv.pdf"
+              target="_blank"
+              class="d-ib td-n bgc-g bw-0 br-0.5 pt-1.5 pr-3 pb-1.5 pl-3 tc-w bgc-lg:h"
+            >
+              <i class="fas fa-download"></i>
+              <span class="tls-0.1">Donwload my CV</span>
             </a>
           </div>
         </div>
       </div>
-      <ul class="intro-social">
-        <li>
-          <a href="https://github.com/DinhThienPhuc" target="_blank">
-            <i class="fa fa-github"> </i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/đinh-thiên-phúc-1173821a5/"
-            target="_blank"
-          >
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.freecodecamp.org/dinhthienphuc" target="_blank">
-            <i class="fa fa-free-code-camp"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/thienphuc1412" target="_blank">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:thienphuc.bka1412@gmail.com" target="_blank">
-            <i class="fa fa-google"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/profile.php?id=100008135957449"
-            target="_blank"
-          >
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-      </ul>
     </section>
-    <section id="summary">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h2>Summary</h2>
-          <div class="intro-info">
-            <img src="images/profile-pic.jpg" alt="Profile Picture" />
-            <p class="lead">
-              <span>
-                I'm Dinh Thien Phuc, a web developer with 2 years of experience
-                in Web development, skilled in Frontend technologies like
-                React.js, Vue.js, JavaScript and good at Backend field. Learning
-                new languages and technologies is what I am passionate about. I
-                am considered a team-player because I like helping other and
-                tend to work well within groups. I can also do some mentoring
-                tasks and do code reviewing for other team members. My favorite
-                books are: Clean Code, Code Complete, Eloquent JavaScript.
-              </span>
-              <br />
-              <a class="contact" href="mailto:thienphuc.bka1412@gmail.com">
-                <i class="far fa-envelope"></i>
-                <span>thienphuc.bka1412@gmail.com</span>
-              </a>
-              <a class="contact" href="./assets/cv.pdf" target="_blank">
-                <i class="far fa-file-pdf"></i>
-                <span>Curriculum Vitae</span>
-              </a>
-            </p>
-          </div>
+    <section id="skills" class="bgc-lgr pt-5 pb-10 spx-m spx-t spx-d">
+      <div>
+        <div>
+          <h2 class="ff-ppin-sb tc-g fs-3 ta-c tls-0.05">Technical Skills</h2>
         </div>
-      </div>
-    </section>
-    <section id="skills" class="grey-section">
-      <div class="row about-content">
-        <div class="col-twelve resume-header">
-          <h2>Technical Skills</h2>
-        </div>
-        <div class="col-twelve" id="skills-dom"></div>
+        <div class="dom-skills"></div>
       </div>
     </section>
     <section id="work-exp">
-      <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
+      <div>
+        <div>
           <h2>Work Experience</h2>
         </div>
-        <div class="col-twelve">
-          <div class="timeline-wrap" id="work-experience-dom"></div>
+        <div>
+          <div class="dom-work-experience"></div>
         </div>
       </div>
     </section>
-    <section id="education" class="grey-section">
-      <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
+    <section id="education">
+      <div>
+        <div>
           <h2>Education</h2>
         </div>
-        <div class="col-twelve">
-          <div class="timeline-wrap" id="education-dom"></div>
+        <div>
+          <div class="dom-education"></div>
         </div>
       </div>
     </section>
     <footer>
-      <div class="row">
+      <div>
         <p>
           <i class="far fa-copyright"></i>
           <span>2020. By Dinh Thien Phuc</span>
         </p>
-        <div id="go-top">
-          <a class="smoothscroll" title="Back to Top" href="#top">
+        <div class="dom-go-top">
+          <a class="dom-route" title="Back to Top" href="#top">
             <i class="fa fa-long-arrow-up"></i>
           </a>
         </div>
       </div>
     </footer>
-    <div id="preloader">
-      <div id="loader"></div>
+    <div class="dom-preloader">
+      <div class="dom-loader"></div>
     </div>
     <script src="assets/js/jquery-2.1.3.min.js"></script>
     <script src="assets/js/plugins.js"></script>
