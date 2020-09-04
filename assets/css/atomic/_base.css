@@ -209,14 +209,18 @@
   box-sizing: border-box;
 }
 
+/* Mobile ---------------------------------------------------------- */
 html {
   font-family: "lora-regular", serif;
   font-size: var(--p8);
   background-color: var(--light-black);
 }
+/* End Mobile ------------------------------------------------------ */
 
+/* Tablet and above ------------------------------------------------ */
 @media only screen and (min-width: 768px) {
   html {
     font-size: var(--p10);
   }
 }
+/* End Tablet and above -------------------------------------------- */
