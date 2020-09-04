@@ -1,0 +1,56 @@
+/*
+  RULES:
+    bgc = background-color
+    bgi = background-image
+    bgs = background-size
+    bga = background-attachment
+*/
+
+/* BACKGROUND COLOR ------------------------------------------------ */
+.bgc-b {
+  background-color: var(--black);
+}
+.bgc-lb {
+  background-color: var(--light-black);
+}
+.bgc-dgr {
+  background-color: var(--dark-grey);
+}
+.bgc-gr {
+  background-color: var(--grey);
+}
+.bgc-w {
+  background-color: var(--white);
+}
+.bgc-g {
+  background-color: var(--gold);
+}
+.bgc-lg {
+  background-color: var(--light-gold);
+}
+.bgc-lgr {
+  background-color: var(--light-grey);
+}
+.bgc-lg\:h:hover {
+  transition: all linear 300ms;
+  background-color: var(--light-gold);
+}
+/* END BACKGROUND COLOR -------------------------------------------- */
+
+/* BACKGROUND IMAGE ------------------------------------------------ */
+.bgi-city {
+  background-image: url(../../../images//intro-bg.jpg);
+}
+/* END BACKGROUND IMAGE -------------------------------------------- */
+
+/* BACKGROUND SIZE ------------------------------------------------- */
+.bgs-c {
+  background-size: cover;
+}
+/* END BACKGROUND SIZE --------------------------------------------- */
+
+/* BACKGROUND ATTACHMENT ------------------------------------------- */
+.bga-f {
+  background-attachment: fixed;
+}
+/* END BACKGROUND ATTACHMENT --------------------------------------- */

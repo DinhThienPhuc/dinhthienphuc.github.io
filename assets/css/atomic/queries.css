@@ -1,0 +1,152 @@
+/*
+  RULES:
+    col = column
+    spx = section padding horizontal
+*/
+
+/* Mobile ---------------------------------------------------------- */
+.col-m-1 {
+  width: 8.33%;
+}
+.col-m-2 {
+  width: 16.66%;
+}
+.col-m-3 {
+  width: 25%;
+}
+.col-m-4 {
+  width: 33.33%;
+}
+.col-m-5 {
+  width: 41.66%;
+}
+.col-m-6 {
+  width: 50%;
+}
+.col-m-7 {
+  width: 58.33%;
+}
+.col-m-8 {
+  width: 66.66%;
+}
+.col-m-9 {
+  width: 75%;
+}
+.col-m-10 {
+  width: 83.33%;
+}
+.col-m-11 {
+  width: 91.66%;
+}
+.col-m-12 {
+  width: 100%;
+}
+/* End Mobile ------------------------------------------------------ */
+
+/* Table ----------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  .col-t-1 {
+    width: 8.33%;
+  }
+  .col-t-2 {
+    width: 16.66%;
+  }
+  .col-t-3 {
+    width: 25%;
+  }
+  .col-t-4 {
+    width: 33.33%;
+  }
+  .col-t-5 {
+    width: 41.66%;
+  }
+  .col-t-6 {
+    width: 50%;
+  }
+  .col-t-7 {
+    width: 58.33%;
+  }
+  .col-t-8 {
+    width: 66.66%;
+  }
+  .col-t-9 {
+    width: 75%;
+  }
+  .col-t-10 {
+    width: 83.33%;
+  }
+  .col-t-11 {
+    width: 91.66%;
+  }
+  .col-t-12 {
+    width: 100%;
+  }
+}
+/* End Table ------------------------------------------------------- */
+
+/* Desktop --------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+  .col-d-1 {
+    width: 8.33%;
+  }
+  .col-d-2 {
+    width: 16.66%;
+  }
+  .col-d-3 {
+    width: 25%;
+  }
+  .col-d-4 {
+    width: 33.33%;
+  }
+  .col-d-5 {
+    width: 41.66%;
+  }
+  .col-d-6 {
+    width: 50%;
+  }
+  .col-d-7 {
+    width: 58.33%;
+  }
+  .col-d-8 {
+    width: 66.66%;
+  }
+  .col-d-9 {
+    width: 75%;
+  }
+  .col-d-10 {
+    width: 83.33%;
+  }
+  .col-d-11 {
+    width: 91.66%;
+  }
+  .col-d-12 {
+    width: 100%;
+  }
+}
+/* End Desktop ----------------------------------------------------- */
+
+/* Mobile ---------------------------------------------------------- */
+.spx-m {
+  padding-left: var(--r5);
+  padding-right: var(--r5);
+}
+/* End Mobile ------------------------------------------------------ */
+
+/* Tablet ---------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+  .spx-t {
+    padding-left: var(--r10);
+    padding-right: var(--r10);
+  }
+}
+/* End Tablet ------------------------------------------------------ */
+
+/* Tablet ---------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+  .spx-d {
+    padding-left: var(--r30);
+    padding-right: var(--r30);
+  }
+}
+/* End Tablet ------------------------------------------------------ */
