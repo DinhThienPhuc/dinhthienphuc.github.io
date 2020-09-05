@@ -131,6 +131,13 @@
   padding-left: var(--r5);
   padding-right: var(--r5);
 }
+
+.d-m-n {
+  display: none;
+}
+.d-m-b {
+  display: block;
+}
 /* End Mobile ------------------------------------------------------ */
 
 /* Tablet ---------------------------------------------------------- */
@@ -139,14 +146,28 @@
     padding-left: var(--r10);
     padding-right: var(--r10);
   }
+
+  .d-t-n {
+    display: none;
+  }
+  .d-t-b {
+    display: block;
+  }
 }
 /* End Tablet ------------------------------------------------------ */
 
 /* Tablet ---------------------------------------------------------- */
 @media only screen and (min-width: 1024px) {
   .spx-d {
-    padding-left: var(--r30);
-    padding-right: var(--r30);
+    padding-left: var(--r25);
+    padding-right: var(--r25);
+  }
+
+  .d-d-n {
+    display: none;
+  }
+  .d-d-b {
+    display: block;
   }
 }
 /* End Tablet ------------------------------------------------------ */

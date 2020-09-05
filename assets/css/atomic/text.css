@@ -37,6 +37,15 @@
 /* END TEXT DECORATION --------------------------------------------- */
 
 /* LINE HEIGHT ----------------------------------------------------- */
+.tlh-2 {
+  line-height: var(--r2);
+}
+.tlh-4 {
+  line-height: var(--r4);
+}
+.tlh-5 {
+  line-height: var(--r5);
+}
 .tlh-6 {
   line-height: var(--r6);
 }

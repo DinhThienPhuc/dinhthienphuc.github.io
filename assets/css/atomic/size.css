@@ -11,8 +11,14 @@
 .w-2 {
   width: var(--r2);
 }
+.w-4 {
+  width: var(--r4);
+}
 .w-5 {
   width: var(--r5);
+}
+.w-6 {
+  width: var(--r6);
 }
 .w-10 {
   width: var(--r10);
@@ -27,6 +33,9 @@
   width: var(--r30);
 }
 
+.w-15p {
+  width: var(--pc15);
+}
 .w-25p {
   width: var(--pc25);
 }
@@ -46,8 +55,23 @@
 /* END WIDTH ------------------------------------------------------- */
 
 /* HEIGHT ---------------------------------------------------------- */
+.h-0\.1 {
+  height: var(--r0\.1);
+}
+.h-0\.2 {
+  height: var(--r0\.2);
+}
+.h-0\.3 {
+  height: var(--r0\.3);
+}
 .h-2 {
   height: var(--r2);
+}
+.h-4 {
+  height: var(--r4);
+}
+.h-5 {
+  height: var(--r5);
 }
 .h-6 {
   height: var(--r6);

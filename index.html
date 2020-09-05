@@ -111,7 +111,7 @@
               <span class="tc-w fs-1.7 tls-0.2 tt-u">Web Developer</span>
             </p>
             <a
-              class="dom-route d-ib ff-ppin-b tc-w td-n tt-u tls-0.3 pt-1.5 pr-3 pb-1.5 pl-3 bw-0.3 bc-dgr bt-s fs-1.3 fw-br mt-3 bc-g:h tc-g:h"
+              class="dom-route d-ib ff-ppin-b tc-w td-n tt-u tls-0.3 pt-1.5 pr-3 pb-1.5 pl-3 bw-0.3 bc-dgr bs-s fs-1.3 fw-br mt-3 bc-g:h tc-g:h"
               href="#summary"
               title=""
             >
@@ -183,37 +183,35 @@
       class="mh-100vh pb-10 bgc-w pt-5 spx-m spx-t spx-d ta-c"
     >
       <div>
-        <div>
-          <h2 class="ff-ppin-sb tc-g fs-3 tls-0.05">Summary</h2>
-          <div class="">
-            <img
-              src="images/profile-pic.jpg"
-              alt="Profile Picture"
-              class="w-20 h-20 br-c"
-            />
-            <p class="tc-gr fs-2 tlh-1.8 ta-j tls-0.05">
-              I'm Dinh Thien Phuc, a web developer with 2 years of experience in
-              Web development, skilled in Frontend technologies like React.js,
-              Vue.js, JavaScript and good at Backend field. Learning new
-              languages and technologies is what I am passionate about. I am
-              considered a team-player because I like helping other and tend to
-              work well within groups. I can also do some mentoring tasks and do
-              code reviewing for other team members. My favorite books are:
-              Clean Code, Code Complete, Eloquent JavaScript.
-            </p>
-            <a
-              href="./assets/cv.pdf"
-              target="_blank"
-              class="d-ib td-n bgc-g bw-0 br-0.5 pt-1.5 pr-3 pb-1.5 pl-3 tc-w bgc-lg:h"
-            >
-              <i class="fas fa-download"></i>
-              <span class="tls-0.1">Donwload my CV</span>
-            </a>
-          </div>
+        <h2 class="ff-ppin-sb tc-g fs-3 tls-0.05">Summary</h2>
+        <div class="">
+          <img
+            src="images/profile-pic.jpg"
+            alt="Profile Picture"
+            class="w-20 h-20 br-c"
+          />
+          <p class="tc-gr fs-2 tlh-1.8 ta-j tls-0.05">
+            I'm Dinh Thien Phuc, a web developer with 2 years of experience in
+            Web development, skilled in Frontend technologies like React.js,
+            Vue.js, JavaScript and good at Backend field. Learning new languages
+            and technologies is what I am passionate about. I am considered a
+            team-player because I like helping other and tend to work well
+            within groups. I can also do some mentoring tasks and do code
+            reviewing for other team members. My favorite books are: Clean Code,
+            Code Complete, Eloquent JavaScript.
+          </p>
+          <a
+            href="./assets/[Web Developer] - Dinh Thien Phuc CV.pdf"
+            target="_blank"
+            class="d-ib td-n bgc-g bw-0 br-0.5 pt-1.5 pr-3 pb-1.5 pl-3 tc-w bgc-lg:h"
+          >
+            <i class="fas fa-download"></i>
+            <span class="tls-0.1">Donwload my CV</span>
+          </a>
         </div>
       </div>
     </section>
-    <section id="skills" class="bgc-lgr pt-5 pb-10 spx-m spx-t spx-d">
+    <section id="skills" class="mh-100vh bgc-lgr pt-5 pb-10 spx-m spx-t spx-d">
       <div>
         <div>
           <h2 class="ff-ppin-sb tc-g fs-3 ta-c tls-0.05">Technical Skills</h2>
@@ -221,34 +219,37 @@
         <div class="dom-skills"></div>
       </div>
     </section>
-    <section id="work-exp">
+    <section id="work-exp" class="mh-100vh pb-10 bgc-w pt-5 spx-m spx-t spx-d">
       <div>
         <div>
-          <h2>Work Experience</h2>
+          <h2 class="ff-ppin-sb tc-g fs-3 ta-c tls-0.05">Work Experience</h2>
         </div>
-        <div>
-          <div class="dom-work-experience"></div>
-        </div>
+        <div class="dom-work-experience"></div>
       </div>
     </section>
-    <section id="education">
+    <section
+      id="education"
+      class="mh-100vh pb-10 bgc-lgr pt-5 spx-m spx-t spx-d"
+    >
       <div>
         <div>
-          <h2>Education</h2>
+          <h2 class="ff-ppin-sb tc-g fs-3 ta-c tls-0.05">Education</h2>
         </div>
-        <div>
-          <div class="dom-education"></div>
-        </div>
+        <div class="dom-education"></div>
       </div>
     </section>
-    <footer>
+    <footer class="h-5">
       <div>
-        <p>
+        <p class="mt-0 mb-0 ta-c tlh-5 tc-gr">
           <i class="far fa-copyright"></i>
-          <span>2020. By Dinh Thien Phuc</span>
+          <span class="fs-1.5 tls-0.05">2020. By Dinh Thien Phuc</span>
         </p>
-        <div class="dom-go-top">
-          <a class="dom-route" title="Back to Top" href="#top">
+        <div class="dom-go-top ps-f ps-r1 ps-b1 w-5 h-5 bgc-g br-c tlh-5 ta-c">
+          <a
+            class="dom-route d-ib w-100p h-100p tc-w"
+            title="Back to Top"
+            href="#top"
+          >
             <i class="fa fa-long-arrow-up"></i>
           </a>
         </div>
@@ -263,6 +264,6 @@
     <script src="database/skills.js"></script>
     <script src="database/experiences.js"></script>
     <script src="database/educations.js"></script>
-    <script src="assets/js/myScript.js"></script>
+    <script src="assets/js/initData.js"></script>
   </body>
 </html>

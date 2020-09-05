@@ -31,6 +31,9 @@
 .bgc-lgr {
   background-color: var(--light-grey);
 }
+.bgc-dw {
+  background-color: var(--dark-white);
+}
 .bgc-lg\:h:hover {
   transition: all linear 300ms;
   background-color: var(--light-gold);
