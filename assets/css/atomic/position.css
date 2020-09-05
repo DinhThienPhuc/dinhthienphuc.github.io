@@ -10,7 +10,7 @@
 .ps-f {
   position: fixed;
 }
-.ps-rr {
+.ps-r {
   position: relative;
 }
 /* END POSITION TYPE ----------------------------------------------- */
@@ -22,11 +22,20 @@
 .ps-r0 {
   right: 0;
 }
+.ps-r1 {
+  right: var(--r1);
+}
 .ps-b0 {
   bottom: 0;
 }
+.ps-b1 {
+  bottom: var(--r1);
+}
 .ps-l0 {
   left: 0;
+}
+.ps-ln2 {
+  left: var(--rn2);
 }
 /* END POSITION ---------------------------------------------------- */
 

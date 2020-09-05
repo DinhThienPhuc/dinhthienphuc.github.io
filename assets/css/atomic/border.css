@@ -2,7 +2,7 @@
   RULES:
     bc = border-color
     bw = border-width
-    bt = border-type
+    bs = border-style
     br = border-radius
 */
 
@@ -13,11 +13,17 @@
 .bw-0 {
   border-width: 0;
 }
+.blw-1 {
+  border-left-width: var(--r0\.1);
+}
 /* END BORDER WIDTH ------------------------------------------------ */
 
 /* BORDER COLOR ---------------------------------------------------- */
 .bc-dgr {
   border-color: var(--dark-grey);
+}
+.bc-dw {
+  border-color: var(--dark-white);
 }
 .bc-g\:h:hover {
   transition: all linear 300ms;
@@ -26,8 +32,11 @@
 /* END BORDER COLOR ------------------------------------------------ */
 
 /* BORDER STYLE ---------------------------------------------------- */
-.bt-s {
+.bs-s {
   border-style: solid;
+}
+.bls-s {
+  border-left-style: solid;
 }
 /* END BORDER STYLE ------------------------------------------------ */
 
