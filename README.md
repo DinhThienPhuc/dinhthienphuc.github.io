@@ -1,3 +1,5 @@
-## dinhthienphuc.github.io
+## Website of me: dinhthienphuc.github.io
 
-Tesaigher Brainioermace Miorciacevl Jirpaselruio Mnaieviuikl jiuovaecal
+- dinhthienphuc.github.io: Entry site and also CV site
+- dinhthienphuc.github.io/blogs: blogs (update soon)
+- dinhthienphuc.github.io/portfolio: portfolio, includes my apps, webs (update soon)
