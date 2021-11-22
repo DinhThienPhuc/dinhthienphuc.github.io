@@ -1,0 +1,164 @@
+body {
+  font-family: "Fira Code";
+  background-color: #25262c;
+
+  /* background-color: #25262c;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      #292a30 25%,
+      #292a30 26%,
+      transparent 27%,
+      transparent 74%,
+      #292a30 75%,
+      #292a30 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      30deg,
+      transparent 24%,
+      #292a30 25%,
+      #292a30 26%,
+      transparent 27%,
+      transparent 74%,
+      #292a30 75%,
+      #292a30 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      60deg,
+      transparent 24%,
+      #292a30 25%,
+      #292a30 26%,
+      transparent 27%,
+      transparent 74%,
+      #292a30 75%,
+      #292a30 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      #292a30 25%,
+      #292a30 26%,
+      transparent 27%,
+      transparent 74%,
+      #292a30 75%,
+      #292a30 76%,
+      transparent 77%,
+      transparent
+    );
+  height: 100%;
+  background-size: 50px 50px; */
+
+  background-image: linear-gradient(
+      30deg,
+      transparent 12%,
+      transparent 12.5%,
+      transparent 87%,
+      transparent 87.5%,
+      transparent
+    ),
+    linear-gradient(
+      30deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ),
+    linear-gradient(
+      -30deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ),
+    linear-gradient(
+      150deg,
+      transparent 12%,
+      transparent 12.5%,
+      transparent 87%,
+      transparent 87.5%,
+      transparent
+    ),
+    linear-gradient(
+      150deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ),
+    linear-gradient(
+      -150deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ),
+    linear-gradient(
+      30deg,
+      transparent 12%,
+      transparent 12.5%,
+      transparent 87%,
+      transparent 87.5%,
+      transparent
+    ),
+    /* linear-gradient(
+      30deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ), */
+      linear-gradient(
+        150deg,
+        transparent 12%,
+        transparent 12.5%,
+        transparent 87%,
+        transparent 87.5%,
+        transparent
+      ),
+    linear-gradient(
+      60deg,
+      transparent 25%,
+      transparent 25.5%,
+      transparent 75%,
+      transparent 75%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ),
+    /* linear-gradient(
+      90deg,
+      transparent 73.85714286%,
+      #292a30 73.85714286%,
+      #292a30 75%,
+      transparent 75%
+    ), */
+      linear-gradient(
+        90deg,
+        transparent 73.85714286%,
+        #292a30 73.85714286%,
+        #292a30 75%,
+        transparent 75%
+      ),
+    linear-gradient(
+      60deg,
+      transparent 25%,
+      transparent 25.5%,
+      transparent 75%,
+      transparent 75%,
+      transparent
+    );
+  background-size: 80px 140px;
+  background-position: 40px 70px, -40px -93px, 120px 46px, 0 0, 0 24px,
+    80px 165px, 0 0, 40px 70px, 0 0, 60px 0, -60px 0, 40px 70px;
+}
