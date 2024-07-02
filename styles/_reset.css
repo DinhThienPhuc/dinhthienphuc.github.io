@@ -1,0 +1,68 @@
+/* Basic CSS Reset */
+
+/* Apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default padding and margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set consistent font, size, and line height */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A very basic "reset" of styles for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove border when images are inside a link */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove the default form field styling */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Avoid the focus outline on elements unless they are actually focused (accessible) */
+a:focus,
+button:focus {
+  outline: none;
+}
